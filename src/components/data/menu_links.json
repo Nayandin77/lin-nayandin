@@ -1,0 +1,22 @@
+[
+    {
+        "class": "home",
+        "href": "#home",
+        "text": "Home"
+    },
+    {
+        "class": "projects",
+        "href": "#projects",
+        "text": "Projects"
+    },
+    {
+        "class": "hobbies",
+        "href": "#hobbies",
+        "text": "Hobbies"
+    },
+    {
+        "class": "contact",
+        "href": "#contact",
+        "text": "Contact"
+    }
+]
