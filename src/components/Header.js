@@ -35,17 +35,21 @@ const Header = () => {
             linkList[i-1] = link;
         }
         return (
-            <div>
+            <div> 
                 <nav id="nav">
                     <div className="navbar">
-                        <ul>
+                        <ul className="nav-links">
                             {
                                 linkList.map((link) =>
-                                    <li className={`icon btn ${link.class}`}>
-                                        <Link to={link.href}>
-                                            <span>{link.text}</span>
-                                        </Link>
-                                    </li>
+                                    <Link to={link.href}>
+                                        <li className={`icon btn ${link.class}`}>
+                                            {link.text}
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </li>
+                                    </Link>
                                 )
                             }
                         </ul>

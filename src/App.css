@@ -1,19 +1,22 @@
 .App {
   text-align: center;
+
+  --primary-color: #fafbfd;
+  --secondary-color: #919ca8;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 25vh;
   display: flex;
@@ -22,17 +25,119 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+nav {
+  background-color: #00356a; 
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #91bbd1;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  padding: 12px 20px;
+  color: #fafbfd;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.btn:hover {
+  /* color: var(--secondary-color); */
+  color: #3286aa;
+  background: var(--primary-color);  
+  box-shadow: 
+    0 0 20px var(--primary-color),
+    0 0 80px var(--primary-color),
+    0 0 160px var(--primary-color), 
+    0 0 320px var(--primary-color);
+  transition-delay: .6s;
+}
+.btn span {
+  position: absolute;
+  display: block;
+}
+.btn span:nth-child(1) {
+  top: 0;
+  transform: translateX(-120%);
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--primary-color));
+}
+.btn:hover span:nth-child(1) {
+  transform: translateX(100%);
+  transition: 0.4s;
+}
+.btn span:nth-child(3) {
+  bottom: 0;
+  transform: translateX(100%);
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(270deg, transparent, var(--primary-color));
+}
+.btn:hover span:nth-child(3) {
+  transform: translateX(-100%);
+  transition: 0.4s 0.2s;
+}
+.btn span:nth-child(2) {
+  right: 0;
+  transform: translateY(-180%);
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, var(--primary-color));
+}
+.btn:hover span:nth-child(2) {
+  transform: translateY(100%);
+  transition: 0.4s 0.1s;
+}
+.btn span:nth-child(4) {
+  left: 0;
+  transform: translateY(100%);
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, var(--primary-color));
+}
+.btn:hover span:nth-child(4) {
+  transform: translateY(-130%);
+  transition: 0.4s 0.3s;
 }
