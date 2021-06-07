@@ -19,6 +19,7 @@ class App extends React.Component {
     
         <BrowserRouter>
           <Header />
+          
           <Switch>
             <Route exact path="/">
               <Redirect to="/home" />

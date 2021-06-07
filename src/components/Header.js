@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 // import menuLinksData from '../components/data/menu_links.json'; // mock data
 import { Link } from 'react-router-dom';
+import './style/Header.css';
 
 
 const Header = () => {
@@ -36,7 +37,7 @@ const Header = () => {
         }
         return (
             <div> 
-                <nav id="nav">
+                <nav className="nav">
                     <div className="navbar">
                         <ul className="nav-links">
                             {
@@ -60,10 +61,12 @@ const Header = () => {
     }
 
     return (
-        <div className="App-header">
-            { returnMenuLinks() }
+        <div className="header-main">
+            <div className="header-title">
+                <h1>  Validone</h1>
+                { returnMenuLinks() }
+            </div>
         </div>
-        
     );
 }
 
