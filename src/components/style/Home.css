@@ -1,7 +1,7 @@
 .home-intro-text {
     text-align: center;
     display: inline-block;
-    margin: 60px 0 20px 60px;
+    margin: 60px 0 20px 80px;
 
     font-family: 'Inconsolata';
     font-weight: 500;
@@ -12,7 +12,7 @@
 
 .home-name-text {
     text-align: left;
-    margin: 15px 0 20px 60px;
+    margin: 15px 0 20px 80px;
 }
 
 .home-name-text-a {
@@ -31,7 +31,7 @@
 }
 
 .home-webpage-text {
-    margin: 0 0 20px 60px;
+    margin: 0 0 20px 80px;
     font-size: calc(30px + 2vmin);
     font-family: 'Ubuntu';
     width: 50%;
@@ -40,7 +40,7 @@
 }
 
 .home-paragraph-text {
-    margin: 0 0 20px 60px;
+    margin: 0 0 20px 80px;
     font-size: calc(8px + 2vmin);
     font-family: 'Ubuntu';
     width: 75%;

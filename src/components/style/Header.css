@@ -34,7 +34,7 @@
 .header-container {
     background-color: var(--background-color);
     min-height: 5vh;
-    padding: 1vh;
+    padding: 1vh 1vw 1vh 1vw;
     display: grid;
     grid-template-columns: 17vw 17vw 22vw 22vw 22vw;
     grid-template-rows: auto;
