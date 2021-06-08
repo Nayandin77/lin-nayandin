@@ -2,7 +2,6 @@
 
 .item-home-a {
     grid-area: home;
-    border: 1px solid black;
     justify-self: stretch; 
 }
 
