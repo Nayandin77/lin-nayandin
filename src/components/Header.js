@@ -41,7 +41,7 @@ const Header = () => {
                     <p className="header-title">Validone</p>
                 </div>
                 <div className="item-header-b">
-                    <p className="sub-title">a.k.a Nayandin</p>
+                    <p className="sub-title"><span className="sub-title-a">a.k.a </span><span className="sub-title-b">Nayandin</span></p>
                 </div>
                 <div className="item-header-c">
                     <nav >
