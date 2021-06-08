@@ -1,0 +1,118 @@
+/*     HOME     */
+
+.item-home-a {
+    grid-area: home;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.home-container {
+    border: 1px solid black;
+    height: 85vh;
+
+    display: grid;
+    grid-template-columns: 10vw 10vw 60vw 10vw 10vw;
+    grid-template-rows: auto;
+    grid-template-areas:
+        ". . home . ."
+}
+
+
+/*     Projects     */
+
+.item-projects-a {
+    grid-area: test1;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.item-projects-b {
+    grid-area: test2;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.item-projects-c {
+    grid-area: test3;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.projects-container {
+    border: 1px solid black;
+    height: 85vh;
+
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "test1 test2 . . ."
+        ". test3 test3 test3 .";
+}
+
+
+/*     Hobbies     */
+
+.item-hobbies-a {
+    grid-area: test1;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.item-hobbies-b {
+    grid-area: test2;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.item-hobbies-c {
+    grid-area: test3;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.hobbies-container {
+    border: 1px solid black;
+    height: 85vh;
+
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "test1 test2 . . ."
+        ". test3 test3 test3 .";
+}
+
+
+/*     Contact     */
+
+.item-contact-a {
+    grid-area: test1;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.item-contact-b {
+    grid-area: test2;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.item-contact-c {
+    grid-area: test3;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.contact-container {
+    border: 1px solid black;
+    height: 85vh;
+
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "test1 test2 . . ."
+        ". test3 test3 test3 .";
+
+}

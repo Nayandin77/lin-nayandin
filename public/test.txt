@@ -1,2 +1,6 @@
+<header>
 title subtitle . . .
 . navbar navbar navbar .
+
+<home>
+. . home . .
