@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import menuLinksData from '../components/data/menu_links.json'; // mock data
 import { Link } from 'react-router-dom';
 import './style/Header.css';
-import wolf from '../wolf-icon.png';
+import wolf from '../images/wolf-icon.png';
 
 const Header = () => {
     const [menuLinksData, setMenuLinksData] = useState([]);
