@@ -44,7 +44,7 @@ const Header = () => {
                     <p className="sub-title"><span className="sub-title-a">a.k.a </span><span className="sub-title-b">Nayandin</span></p>
                 </div>
                 <div className="item-header-c">
-                    <nav >
+                    <nav className="nav-bar">
                         <ul className="nav-links">
                             {
                                 linkList.map((link) =>
