@@ -36,9 +36,15 @@ const Header = () => {
             linkList[i-1] = link;
         }
         return (
-            <div> 
-                <nav className="nav">
-                    <div className="navbar">
+            <div className="header-container">
+                <div className="item-header-a">
+                    <p className="header-title">Validone</p>
+                </div>
+                <div className="item-header-b">
+                    <p className="sub-title">a.k.a Nayandin</p>
+                </div>
+                <div className="item-header-c">
+                    <nav >
                         <ul className="nav-links">
                             {
                                 linkList.map((link) =>
@@ -54,19 +60,14 @@ const Header = () => {
                                 )
                             }
                         </ul>
-                    </div>
-                </nav>
+                    </nav>
+                </div> 
             </div>
         )
     }
 
-    return (
-        <div className="header-main">
-            <div className="header-title">
-                <h1>  Validone</h1>
-                { returnMenuLinks() }
-            </div>
-        </div>
+    return ( 
+        returnMenuLinks()
     );
 }
 

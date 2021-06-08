@@ -1,0 +1,28 @@
+.item-home-a {
+    grid-area: test1;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.item-home-b {
+    grid-area: test2;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.item-home-c {
+    grid-area: test3;
+    border: 1px solid black;
+    justify-self: stretch; 
+}
+
+.home-container {
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "test1 test2 . . ."
+        ". test3 test3 test3 ."
+}
