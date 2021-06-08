@@ -11,8 +11,8 @@ const Home = () => {
                     <p>Hello, my name is</p>
                 </div>
                 <div className="home-name-text">
-                    <p>Dennis Nayandin</p>
-                    <p>(alias Validone)</p>
+                    <p className="home-name-text-a">Dennis Nayandin</p>
+                    <p className="home-name-text-b">(alias Validone)</p>
                 </div>
                 <div className="home-webpage-text">
                     <p>I like the build things with Computers.</p> {/* place emoji here */}

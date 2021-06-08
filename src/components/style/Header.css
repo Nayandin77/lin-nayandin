@@ -3,17 +3,23 @@
     justify-self: center;
     align-self: center;
     display: inline-block;
+    margin: 0px 15px 0 120px;
 
     font-family: 'Ubuntu';
 }
 
 .item-header-b {
-    grid-area: subtitle;
+    grid-area: icon;
     justify-self: left;
     align-self: center;
     display: inline-block;
+    margin: 0 15px 0 20px;
+    gap: 10px 10px  
+}
 
-    font-family: 'Ubuntu';
+.item-header-b .header-icon {
+    width: calc(40px + 2vmin); 
+    height: calc(40px + 2vmin);
 }
 
 .item-header-c {
@@ -34,7 +40,7 @@
     grid-template-rows: auto;
     gap: 10px 20px;
     grid-template-areas:
-        "title subtitle navbar navbar navbar"
+        "title icon navbar navbar navbar"
     
 }
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import menuLinksData from '../components/data/menu_links.json'; // mock data
 import { Link } from 'react-router-dom';
 import './style/Header.css';
-
+import wolf from '../wolf-icon.png';
 
 const Header = () => {
     const [menuLinksData, setMenuLinksData] = useState([]);
@@ -41,7 +41,7 @@ const Header = () => {
                     <p className="header-title">Validone</p>
                 </div>
                 <div className="item-header-b">
-                    <p className="sub-title"><span className="sub-title-a">a.k.a </span><span className="sub-title-b">Nayandin</span></p>
+                    <img className="header-icon" src={wolf} alt="wolf icon"></img>
                 </div>
                 <div className="item-header-c">
                     <nav className="nav-bar">
