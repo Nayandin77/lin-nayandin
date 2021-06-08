@@ -40,5 +40,10 @@
 }
 
 .home-paragraph-text {
+    margin: 0 0 20px 60px;
+    font-size: calc(8px + 2vmin);
+    font-family: 'Ubuntu';
+    width: 75%;
 
+    color: var(--navy-color);
 }
