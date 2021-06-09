@@ -16,6 +16,8 @@
   --off-white-color: #fbe8d3;
   --navy-color: #283c63;
 
+  position: relative;
+  min-height: 100vh;
 }
 
 /* https://coolors.co/de1a1a-54494b-fdfdff-ffba08-43aa8b */

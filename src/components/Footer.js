@@ -6,7 +6,9 @@ const Footer = () => {
 
     return (
         <div className="footer-container">
-            Text Footer
+            <p className="footer-text">
+                Designed & Built by Dennis Nayandin
+            </p>
         </div>
 
     );

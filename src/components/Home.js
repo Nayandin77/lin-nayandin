@@ -1,7 +1,6 @@
 import React from 'react';
 import './style/Layout.css';
 import './style/Home.css';
-import emoji from '../images/emoji-face.png';
 
 
 const Home = () => {
@@ -23,7 +22,7 @@ const Home = () => {
                 <div className="home-paragraph-text">
                     <p>I'm a Virginia-based software engineer who's experienced in building and designing full-stack
                         web / mobile applications and application software. I'm CoFounder and CTO of my company 
-                        <a className="home-link" href="https://specudate.com">Cyber Validone LLC</a>, we specialize in
+                        <a className="home-link" href="https://specudate.com"> Cyber Validone LLC</a>, we specialize in
                         building a variety of applications (web, mobile, software).
                     </p>
                 </div>

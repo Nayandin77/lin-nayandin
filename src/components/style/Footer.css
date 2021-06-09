@@ -1,5 +1,19 @@
 .footer-container {
     background-color: var(--background-color);
     color: var(--white-color);
-    min-height: 10vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inconsolata';
+    font-size: calc(2px + 2vh);
 }
