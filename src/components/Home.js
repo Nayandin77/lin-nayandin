@@ -18,9 +18,9 @@ const Home = () => {
                     <p>I like the build things with Computers.</p> {/* place emoji here */}
                 </div>
                 <div className="home-paragraph-text">
-                    <p>I'm a Virginia-based software engineer who specializes in building and designing full-stack
-                        web applications. I'm CoFounder and CTO of my company Cyber Validone LLC, we specialize in
-                        building mobile applications.
+                    <p>I'm a Virginia-based software engineer who's experienced in building and designing full-stack
+                        web / mobile applications and application software. I'm CoFounder and CTO of my company Cyber Validone LLC, 
+                        we specialize in building mobile applications. 
                     </p>
                 </div>
             </div>
