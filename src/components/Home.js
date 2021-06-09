@@ -41,7 +41,7 @@ const Home = () => {
             {
                 skillsList.map((skill) =>
                     <p>
-                        {skill.id}
+                        {skill.value}
                     </p>
                 )
             }
