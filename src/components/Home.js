@@ -26,6 +26,32 @@ const Home = () => {
                         building a variety of applications (web, mobile, software).
                     </p>
                 </div>
+                <div className="home-skills-container">
+                    <p>
+                        Text
+                    </p>
+                    <p>
+                        Text
+                    </p>
+                    <p>
+                        Text
+                    </p>
+                    <p>
+                        Text
+                    </p>
+                    <p>
+                        Text
+                    </p>
+                    <p>
+                        Text
+                    </p>
+                    <p>
+                        Text
+                    </p>
+                    <p>
+                        Text
+                    </p>
+                </div>
             </div>
             <div className="item-home-c"></div>
         </div>

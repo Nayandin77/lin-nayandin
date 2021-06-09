@@ -1,0 +1,72 @@
+[
+    {
+        "id": 2,
+        "value": "Web",
+        "skills" : [
+            "HTML", "CSS", "Javascript", "JSON", "Typescript", "PHP"
+        ]
+    },
+    {
+        "id": 3,
+        "value": "Frameworks",
+        "skills" : [
+            "React", "React-Native", "AngularJS", "Ionic", "Node.js", "Express.js"
+        ]
+    },
+    {
+        "id": 4,
+        "value": "Application",
+        "skills" : [
+            "Java", "Python", "C++", "C&", "C", ".NET"
+        ]
+    },
+    {
+        "id": 5,
+        "value": "Script",
+        "skills" : [
+            "Bash", "Powershell"
+        ]
+    },
+    {
+        "id": 6,
+        "value": "Engines",
+        "skills" : [
+            "Unity", "Unreal", "Godot"
+        ]
+    },
+    {
+        "id": 7,
+        "value": "OS",
+        "skills" : [
+            "Windows", "Linux", "OSX"
+        ]
+    },
+    {
+        "id": 8,
+        "value": "Version Control",
+        "skills" : [
+            "Git", "SVN", "Microsoft Azure"
+        ]
+    },
+    {
+        "id": 9,
+        "value": "Design",
+        "skills" : [
+            "Adobe XD"
+        ]
+    },
+    {
+        "id": 10,
+        "value": "Hardware",
+        "skills" : [
+            "Raspberry Pi", "Arduino"
+        ]
+    },
+    {
+        "id": 11,
+        "value": "AWS",
+        "skills" : [
+            "Amplify", "EC2", "DynamoDB", "DocumentDB", "Lambda", "API Gateway", "IAM", "S3", "Route 53"
+        ]
+    }
+]

@@ -58,4 +58,23 @@
     color: var(--off-white-color);
 }
 
+.item-home-col {
+    grid-area: colx;
+    border: 1px solid black;
+
+}
+
+.home-skills-container {
+    border: 1px solid white;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px 10px;
+}
+
+.home-skills-text {
+    border: 1px solid black;
+}
+
 

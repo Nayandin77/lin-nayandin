@@ -3,4 +3,4 @@ title subtitle . . .
 . navbar navbar navbar .
 
 <home>
-. . home . .
+. border_l home border_r .
