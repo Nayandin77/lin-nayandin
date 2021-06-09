@@ -1,9 +1,53 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './style/Layout.css';
 import './style/Home.css';
 
 
 const Home = () => {
+    const [skillsListData, setSkillsListData] = useState([]);
+
+    const loadSkillsListData = async() => {
+        // Query the API Gateway
+        const res = await fetch('https://4tnfh7msud.execute-api.us-east-2.amazonaws.com/Production/skillslist');
+        let jsonData = await res.json();
+
+        // Assign response data to our state variable
+        setSkillsListData(jsonData);
+    }
+
+    useEffect(() => {
+        // Load the menu links data from the API Gateway
+        loadSkillsListData();
+    }, []);
+
+    function returnSkillsList() {
+        if (!skillsListData) {
+            return (
+                <div>
+                    <p>Loading data!</p>
+                </div>
+            )
+        }
+            
+        const skillsList = new Array(skillsListData.length);
+        for (var i = 1; i <= skillsListData.length; i++) {
+            let skill = skillsListData.find(_skill => _skill.id === i);
+            console.log(skill);
+            skillsList[i-1] = skill;
+        }
+
+        return (
+            <div className="home-skills-container">
+            {
+                skillsList.map((skill) =>
+                    <p>
+                        {skill.id}
+                    </p>
+                )
+            }
+            </div>
+        )
+    }
 
     return (
         <div className="home-container">
@@ -26,32 +70,7 @@ const Home = () => {
                         building a variety of applications (web, mobile, software).
                     </p>
                 </div>
-                <div className="home-skills-container">
-                    <p>
-                        Text
-                    </p>
-                    <p>
-                        Text
-                    </p>
-                    <p>
-                        Text
-                    </p>
-                    <p>
-                        Text
-                    </p>
-                    <p>
-                        Text
-                    </p>
-                    <p>
-                        Text
-                    </p>
-                    <p>
-                        Text
-                    </p>
-                    <p>
-                        Text
-                    </p>
-                </div>
+                { returnSkillsList() }
             </div>
             <div className="item-home-c"></div>
         </div>
