@@ -1,20 +1,26 @@
 .item-header-a {
     grid-area: title;
+    display: inline-block;
     justify-self: center;
     align-self: center;
-    display: inline-block;
-    margin: 0px 15px 0 120px;
+    margin: 0 1vw 0 3vw;
+    padding: 0 1vw 0 1vw;
+
+    /* border: 2px solid white; */
 
     font-family: 'Ubuntu';
 }
 
 .item-header-b {
     grid-area: icon;
+    display: inline-block;
     justify-self: left;
     align-self: center;
-    display: inline-block;
-    margin: 0 15px 0 20px;
-    gap: 10px 10px  
+    margin: 0 0 0 1vw;
+    gap: 10px 10px;
+    padding: 0 1vw 0 1vw;
+
+    /* border: 2px solid white; */
 }
 
 .item-header-b .header-icon {

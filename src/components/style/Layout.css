@@ -5,14 +5,26 @@
     justify-self: stretch; 
 }
 
+.item-home-b {
+    grid-area: border_l;
+    border-right: 1px solid var(--white-color);
+    margin: 10vh 0 10vh 0;
+}
+
+.item-home-c {
+    grid-area: border_r;
+    border-left: 1px solid var(--white-color);
+    margin: 10vh 0 10vh 0;
+}
+
 .home-container {
-    height: 87vh;
+    height: 80vh;
 
     display: grid;
     grid-template-columns: 10vw 10vw 60vw 10vw 10vw;
     grid-template-rows: auto;
     grid-template-areas:
-        ". . home . .";
+        ". border_l home border_r .";
     
     background-color: #f85f73;
 }

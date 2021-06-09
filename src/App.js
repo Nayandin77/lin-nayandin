@@ -9,6 +9,8 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Hobbies from './components/Hobbies';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
+
 
 
 class App extends React.Component {
@@ -34,6 +36,9 @@ class App extends React.Component {
               <Hobbies />
             </Route>
             <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/resume">
               <Contact />
             </Route>
           </Switch>
