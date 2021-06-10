@@ -64,6 +64,12 @@
 
 }
 
+.home-skills-list {
+    padding-top: 16vh;
+
+    border: 1px solid blue;
+}
+
 .home-skills-container {
     border: 1px solid white;
 
@@ -74,7 +80,11 @@
 }
 
 .home-skills-text {
-    border: 1px solid black;
+    border: 1px solid black;    
+}
+
+.skill-container {
+    border: 1px solid violet;
 }
 
 
