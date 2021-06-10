@@ -8,13 +8,17 @@
 .item-home-b {
     grid-area: border_l;
     border-right: 1px solid var(--white-color);
-    margin: 10vh 0 10vh 0;
+    margin: 10vh 1vw 10vh 1vw;
+    padding-right: 2vw;
+
+    /* border: 1px solid green; */
 }
 
 .item-home-c {
     grid-area: border_r;
     border-left: 1px solid var(--white-color);
-    margin: 10vh 0 10vh 0;
+    margin: 10vh 1vw 10vh 1vw;
+    padding-left: 2vw;
 }
 
 .home-container {

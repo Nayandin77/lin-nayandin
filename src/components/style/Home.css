@@ -1,23 +1,21 @@
 .home-intro-text {
     text-align: center;
     display: inline-block;
-    margin: 60px 0 20px 80px;
-
+    margin: 15vh 0 2vh 8vw;
     font-family: 'Inconsolata';
     font-weight: 500;
     font-size: calc(3px + 2vmin);
     color: var(--white-color);
-
 }
 
 .home-name-text {
     text-align: left;
-    margin: 15px 0 20px 80px;
+    margin: 2vh 8vw 2vh 8vw;
 }
 
 .home-name-text-a {
     display: inline;
-    font-size: calc(30px + 2vmin);
+    font-size: calc(30px + 4vmin);
     font-family: 'Ubuntu';
     color: var(--white-color);
 }
@@ -25,26 +23,23 @@
 .home-name-text-b {
     display: inline;
     margin-left: 10px;
-    font-size: calc(6px + 2vmin);
+    font-size: calc(10px + 2vmin);
     font-family: 'Ubuntu';
     color: var(--background-color);
 }
 
-.home-webpage-text {
-    margin: 0 0 20px 80px;
-    font-size: calc(30px + 2vmin);
+.home-description-text {
+    margin: 2vh 8vw 2vh 8vw;
+    font-size: calc(28px + 2vmin);
     font-family: 'Ubuntu';
     width: 60%;
-    
     color: var(--off-white-color);
 }
 
 .home-paragraph-text {
-    margin: 0 0 20px 80px;
-    font-size: calc(4px + 2vmin);
+    margin: 4vh 8vw 40vh 8vw;
+    font-size: calc(3px + 2vmin);
     font-family: 'Ubuntu';
-    width: 75%;
-
     color: var(--navy-color);
 }
 
@@ -58,16 +53,25 @@
     color: var(--off-white-color);
 }
 
-.item-home-col {
-    grid-area: colx;
-    border: 1px solid black;
-
+.home-aboutme-container {
+    
 }
 
-.home-skills-list {
-    padding: 16vh 0 16vh 0;
+
+.home-skills-list-section {
+    margin: 25vh 2vw 16vh 2vw;
+    /* padding:  */
 
     border: 1px solid blue;
+}
+
+.home-skills-list-text {
+    border: 1px solid white;
+
+    color: var(--off-white-color);
+    margin: 0 0 1vh 0;
+    font-size: calc(2px + 2vmin);
+    font-family: 'Ubuntu';
 }
 
 .home-skills-container {
