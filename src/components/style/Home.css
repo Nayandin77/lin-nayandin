@@ -65,7 +65,7 @@
 }
 
 .home-skills-list {
-    padding-top: 16vh;
+    padding: 16vh 0 16vh 0;
 
     border: 1px solid blue;
 }
