@@ -20,6 +20,21 @@ const Home = () => {
         loadSkillsListData();
     }, []);
 
+    function returnListForSkill(skill) {
+        // Return the List per Skill    
+        return (
+            <div className="skill-container">
+            {
+                skill.skills.map((value) => 
+                    <p>
+                        { value }
+                    </p>
+                )
+            }
+            </div>
+        )
+    }
+
     function returnSkillsList() {
         if (!skillsListData) {
             return (
@@ -32,7 +47,7 @@ const Home = () => {
         const skillsList = new Array(skillsListData.length);
         for (var i = 1; i <= skillsListData.length; i++) {
             let skill = skillsListData.find(_skill => _skill.id === i);
-            console.log(skill);
+            // console.log(skill);
             skillsList[i-1] = skill;
         }
 
@@ -41,7 +56,8 @@ const Home = () => {
             {
                 skillsList.map((skill) =>
                     <p>
-                        {skill.value}
+                        {skill.value}:
+                        { returnListForSkill(skill) }
                     </p>
                 )
             }
@@ -70,7 +86,13 @@ const Home = () => {
                         building a variety of applications (web, mobile, software).
                     </p>
                 </div>
-                { returnSkillsList() }
+                <div className="home-skills-list">
+                    <p>
+                        List of Skills
+                    </p>
+                    { returnSkillsList() }
+                </div>
+                
             </div>
             <div className="item-home-c"></div>
         </div>
