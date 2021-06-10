@@ -14,16 +14,14 @@
 }
 
 .home-name-text-a {
-    display: inline;
     font-size: calc(30px + 4vmin);
     font-family: 'Ubuntu';
     color: var(--white-color);
 }
 
 .home-name-text-b {
-    display: inline;
-    margin-left: 10px;
-    font-size: calc(10px + 2vmin);
+    margin-left: 2vw;
+    font-size: calc(8px + 2vmin);
     font-family: 'Ubuntu';
     color: var(--background-color);
 }
