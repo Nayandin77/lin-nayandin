@@ -103,34 +103,16 @@
 
 /*     Contact     */
 
-.item-contact-a {
-    grid-area: test1;
-    border: 1px solid black;
-    justify-self: stretch; 
-}
-
-.item-contact-b {
-    grid-area: test2;
-    border: 1px solid black;
-    justify-self: stretch; 
-}
-
-.item-contact-c {
-    grid-area: test3;
-    border: 1px solid black;
-    justify-self: stretch; 
-}
-
 .contact-container {
-    border: 1px solid black;
-    height: 85vh;
+    border: 3px solid black;
+    height: 80vmin;
 
-    display: grid;
+    /* display: grid;
     grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
     grid-template-rows: auto;
     grid-template-areas:
         "test1 test2 . . ."
-        ". test3 test3 test3 .";
+        ". test3 test3 test3 ."; */
 }
 
 /*     Resume     */
