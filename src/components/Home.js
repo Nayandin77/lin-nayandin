@@ -80,7 +80,7 @@ const Home = () => {
                 </div>
 
                 <div className="home-description-text">
-                    <p>I like the build things with Computers.</p>
+                    <p>I like to build things with Computers.</p>
                 </div>
 
                 <div className="home-paragraph-text">
@@ -93,11 +93,24 @@ const Home = () => {
 
                 <div className="home-aboutme-container">
                     <p className="home-aboutme-title">
-                        -- About Me ----
+                        <span>About Me</span>
                     </p>
-                    <p className="home-aboutme-text">
-
-                    </p>
+                    <div className="home-aboutme-text">
+                        <p>
+                            Hi! I'm Dennis and I've been programming since 2015. My initial spike 
+                            of interest in computer science occured in 2017. I struggled my first two years
+                            in college due to lack of understanding logic. One day, I overcame
+                            that obstacle and I was motivated and inspired to learn. I spent months on 
+                            <a href="https://www.udemy.com"> Udemy</a> and <a href="https://www.linkedin.com/learning">LinkedIn Learning </a> 
+                            where I would learn many different modern frameworks, 
+                            and began building websites, mobile applications, video games, and software applications.
+                        </p>
+                        <br></br>
+                        <p>
+                            In 2019, a friend came to me with this idea for a mobile dating application 
+                        </p>
+                    </div>
+                    
                 </div>
 
                 <div className="home-skills-list-section">

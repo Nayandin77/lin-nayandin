@@ -5,7 +5,7 @@
     font-family: 'Inconsolata';
     font-weight: 500;
     font-size: calc(3px + 2vmin);
-    color: var(--white-color);
+    color: var(--fifth-color);
 }
 
 .home-name-text {
@@ -14,16 +14,16 @@
 }
 
 .home-name-text-a {
-    font-size: calc(30px + 4vmin);
+    font-size: calc(35px + 4vmin);
     font-family: 'Ubuntu';
-    color: var(--white-color);
+    color: var(--fifth-color);
 }
 
 .home-name-text-b {
-    margin-left: 2vw;
+    margin-left: 1vw;
     font-size: calc(8px + 2vmin);
     font-family: 'Ubuntu';
-    color: var(--background-color);
+    color: var(--fourth-color);
 }
 
 .home-description-text {
@@ -31,28 +31,66 @@
     font-size: calc(28px + 2vmin);
     font-family: 'Ubuntu';
     width: 60%;
-    color: var(--off-white-color);
+    color: var(--yellow-color);
 }
 
 .home-paragraph-text {
     margin: 4vh 8vw 40vh 8vw;
     font-size: calc(3px + 2vmin);
     font-family: 'Ubuntu';
-    color: var(--navy-color);
+    color: var(--fourth-color);
 }
 
 .home-paragraph-text a {
     text-decoration: none;
-    color: var(--navy-color);
+    color: var(--yellow-color);
 }
 
 .home-paragraph-text a:hover {
     text-decoration: none;
-    color: var(--off-white-color);
+    color: var(--yellow-color);
 }
 
 .home-aboutme-container {
-    
+    margin: 0 10vw 8vh 6vw;
+    /* border: 1px solid white; */
+    padding: 2vmin;
+}
+
+.home-aboutme-title {
+    font-family: 'Ubuntu';
+    font-size: calc(8px + 2vmin);
+    color: var(--fifth-color);
+    line-height: 0;
+}
+
+.home-aboutme-title span {
+    display: inline-block;
+    position: relative;
+}
+
+.home-aboutme-title span::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    border-top: 1px solid white;
+    top: 0;
+    margin-left: 3vmin;
+    width: 70vmin;
+}
+
+.home-aboutme-text {
+    margin: 2vmin 2vmin 0 2vmin;
+    /* border: 1px solid black; */
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: calc(2px + 2vmin);
+    color: var(--fourth-color);
+}
+
+.home-aboutme-text a {
+    text-decoration: none;
+    color: var(--yellow-color);
 }
 
 

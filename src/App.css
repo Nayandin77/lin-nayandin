@@ -5,16 +5,18 @@
 }
 
 .App {
-  --primary-color: #fafbfd;
-  --secondary-color: #919ca8;
-  --third-color: #dfdfdf;
-  --background-color: #232323;
+  --primary-color: #1b262c;
+  --secondary-color: #0f4c75;
+  --third-color: #3282b8;
+  --fourth-color: #bbe1fa;
+  --fifth-color: #ffffff;
+  --yellow-color: #E7DFC6;
 
-  --red-color: #DE1A1A;
+  /* --red-color: #DE1A1A;
   --grey-color: #565656;
   --white-color: #FDFDFF;
   --off-white-color: #fbe8d3;
-  --navy-color: #283c63;
+  --navy-color: #283c63; */
 
   position: relative;
   min-height: 100vh;
@@ -22,4 +24,4 @@
 
 /* https://coolors.co/de1a1a-54494b-fdfdff-ffba08-43aa8b */
 
-
+/* https://coolors.co/222831-fcf7ff-c4cad0-d7263d-db5461 */
