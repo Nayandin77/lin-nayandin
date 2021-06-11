@@ -107,7 +107,10 @@ const Home = () => {
                         </p>
                         <br></br>
                         <p>
-                            In 2019, a friend came to me with this idea for a mobile dating application 
+                            In 2019, a friend came to me with this idea for a mobile dating application. At the time
+                            I had never built a full-stack application before, only built small projects where I would
+                            practice a particular framework. Ever since then we have made our own company, designed and built a full-stack 
+                            dating application, called <a href="https://specudate.com">SpecUdate</a>!
                         </p>
                     </div>
                     
