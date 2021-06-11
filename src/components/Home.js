@@ -26,9 +26,7 @@ const Home = () => {
             <div className="skill-container">
             {
                 skill.skills.map((value) => 
-                    <p>
-                        { value }
-                    </p>
+                    <li>{ value }</li>
                 )
             }
             </div>
@@ -56,8 +54,11 @@ const Home = () => {
             {
                 skillsList.map((skill) =>
                     <p>
-                        {skill.value}:
+                        {skill.value}
+                        <ul>
                             { returnListForSkill(skill) }
+                        </ul>
+                            
                     </p>
                 )
             }
@@ -122,7 +123,6 @@ const Home = () => {
                             <span>Skills:</span>
                         </p>
                     </div>
-                    
                     { returnSkillsList() }
                 </div>
                 

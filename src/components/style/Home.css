@@ -3,7 +3,7 @@
 .home-intro-text {
     text-align: center;
     display: inline-block;
-    margin: 15vh 0 2vh 8vw;
+    margin: 5vmin 0 2vh 8vw;
     font-family: 'Inconsolata';
     font-weight: 500;
     font-size: calc(3px + 2vmin);
@@ -100,10 +100,10 @@
 /* Skills List Section */
 
 .home-skills-list-container {
-    margin: 30vmin 2vw 16vh 2vw;
+    margin: 30vmin 2vw 30vh 2vw;
     margin: 0 10vw 8vh 6vw;
-    border: 1px solid white;
     padding: 2vmin;
+    /* border: 1px solid green; */
 }
 
 .home-skills-list-text {
@@ -129,21 +129,38 @@
 }
 
 .home-skills-container {
-    border: 1px solid teal;
-    margin: 2vmin 2vmin 0 2vmin;
+    /* border: 1px solid teal; */
+    margin: 3vmin 2vmin 0 2vmin;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px 10px;
+    grid-template-rows: auto;
+    gap: 2vmin 3vmin;
+
+    color: var(--yellow-color);
+    font-family: 'Inconsolata', monospace;
+    font-weight: 600;
+    font-size: calc(12px + 1vmin);
 }
 
-.home-skills-text {
-    border: 1px solid black;    
+.home-skills-container ul {
+    position: relative;
+	list-style: none;
+	margin-left: 1vmin;
+	padding-left: 2vmin;
+}
+
+.home-skills-container ul li:before {
+	content: "-";
+	position: absolute;
+	left: 0;
 }
 
 .skill-container {
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
+    color: var(--fourth-color);
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: calc(8px + 1vmin);
 }
-
 

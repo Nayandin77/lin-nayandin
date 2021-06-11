@@ -8,7 +8,7 @@
 .item-home-b {
     grid-area: border_l;
     border-right: 1px solid var(--fourth-color);
-    margin: 10vh 1vw 10vh 1vw;
+    margin: 0 1vw 10vh 1vw;
     padding-right: 2vw;
 
     /* border: 1px solid green; */
@@ -17,12 +17,13 @@
 .item-home-c {
     grid-area: border_r;
     border-left: 1px solid var(--third-color);
-    margin: 10vh 1vw 10vh 1vw;
+    margin: 0 1vw 10vh 1vw;
     padding-left: 2vw;
 }
 
 .home-container {
     /* height: 100vh; */
+    padding: 10vmin 0 10vmin 0;
 
     display: grid;
     grid-template-columns: 10vw 10vw 60vw 10vw 10vw;
