@@ -130,5 +130,11 @@
     grid-template-areas:
         "test1 test2 . . ."
         ". test3 test3 test3 .";
+}
 
+/*     Resume     */
+.resume-container {
+    border: 1px solid black;
+    justify-content: center;
+    background-color: #f85f73;
 }

@@ -39,7 +39,7 @@ class App extends React.Component {
               <Contact />
             </Route>
             <Route path="/resume">
-              <Contact />
+              <Resume />
             </Route>
           </Switch>
         </BrowserRouter>

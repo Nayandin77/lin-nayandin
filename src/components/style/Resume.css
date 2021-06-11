@@ -1,0 +1,25 @@
+.resume-download {
+    display: inline-flex;
+    margin: 4vmin 0 0 20vw;
+}
+
+.resume-download a {
+    text-decoration: none;
+    font-size: calc(8px + 1vmin);
+    font-family: 'Ubuntu';
+    padding: .5vmin;
+    border: 2px solid var(--background-color);
+    border-radius: 2vmin;
+    background-color: var(--white-color);
+    color: var(--background-color);
+}
+
+.resume-pdf-container {
+    margin: 4vh 19vw 10vh 19vw;
+    padding: 0 0 10vh 0;
+}
+
+.resume-pdf {
+    height: 1200px;
+    width: 100%;
+}
