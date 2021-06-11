@@ -24,3 +24,7 @@
 .footer-text-b {
     color: var(--third-color);
 }
+
+.footer-text-line {
+    color: var(--fourth-color);
+}

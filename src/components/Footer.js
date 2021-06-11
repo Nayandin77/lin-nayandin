@@ -9,8 +9,11 @@ const Footer = () => {
             <p className="footer-text-a">
                 Designed & Built by Dennis Nayandin&nbsp;
             </p>
+            <p className="footer-text-line">
+                |&nbsp;
+            </p>
             <p className="footer-text-b">
-                | Powered by AWS Amplify
+                Powered by AWS Amplify
             </p>
         </div>
 
