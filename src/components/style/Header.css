@@ -45,6 +45,10 @@
     /* border: 2px solid green; */
 }
 
+/* .btn:active {
+    border: 10px solid red;
+} */
+
 .btn {
     float: left;
     position: relative;

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 // import menuLinksData from '../components/data/menu_links.json'; // mock data
 import { Link } from 'react-router-dom';
+// import Link from './mod/Link';
 import './style/Header.css';
 import wolf from '../images/wolf-icon.png';
 
@@ -46,19 +47,19 @@ const Header = () => {
                 </div>
 
                 <div className="item-header-b">
-                    <nav>
+                    <nav className="nav-bar">
                         <ul className="nav-links">
                             {
                                 linkList.map((link) =>
-                                    <Link to={link.href}>
-                                        <li className={`btn ${link.class}`}>
+                                    <li className={`${link.class}`}>
+                                        <Link to={link.href} className="btn">
                                             {link.text}
                                             <span></span>
                                             <span></span>
                                             <span></span>
                                             <span></span>
-                                        </li>
-                                    </Link>
+                                        </Link>
+                                    </li>
                                 )
                             }
                         </ul>
@@ -72,6 +73,7 @@ const Header = () => {
     return ( 
         returnMenuLinks()
     );
+
 }
 
 export default Header;
