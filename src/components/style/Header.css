@@ -1,70 +1,39 @@
 .item-header-a {
-    grid-area: title;
-    display: inline-block;
-    justify-self: center;
-    align-self: center;
-    margin: 0 1vw 0 3vw;
-    padding: 0 1vw 0 1vw;
-
-    /* border: 2px solid white; */
-
-    font-family: 'Ubuntu';
+    width: 40vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
 }
 
 .item-header-b {
-    grid-area: icon;
-    display: inline-block;
-    justify-self: left;
-    align-self: center;
-    margin: 0 0 0 1vw;
-    gap: 10px 10px;
-    padding: 0 1vw 0 1vw;
-
-    /* border: 2px solid white; */
-}
-
-.item-header-b .header-icon {
-    width: calc(40px + 2vmin); 
-    height: calc(40px + 2vmin);
-}
-
-.item-header-c {
-    grid-area: navbar;
-    justify-self: center;
-    align-self: center;
-    display: inline-block;
-    margin: 2vh 0 0 0;
-    border: 2px solid black;
+    width: 60vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    /* border: 2px solid green; */
 }
 
 .header-container {
+    display: inline-flex;
     background-color: var(--background-color);
-    min-height: 5vh;
-    padding: 1vh 1vw 1vh 1vw;
-
-    display: grid;
-    grid-template-columns: 17vw 17vw 22vw 22vw 22vw;
-    grid-template-rows: auto;
-    gap: 10px 20px;
-    grid-template-areas:
-        "title icon navbar navbar navbar"
-    
+    min-height: calc(1px + 10vmin);
 }
 
 .header-title {
-    font-size: calc(40px + 2vmin);
+    font-size: calc(15px + 5vmin);
+    font-family: 'Ubuntu';
     color: var(--white-color);
+    /* border: 2px solid green; */
 }
 
-.sub-title-a {
-    font-size: calc(10px + 2vmin);
-    color: var(--secondary-color);
+.header-icon {
+    width: calc(15px + 4vmin); 
+    height: calc(15px + 4vmin);
+    margin: 0 0 0 1vmin;
+    /* border: 2px solid white; */
 }
-.sub-title-b {
-    font-size: calc(20px + 2vmin);
-    color: var(--red-color);
-}
-
 
 .nav-links { /* holds the ul element */
     display: flex;
@@ -72,20 +41,19 @@
     justify-content: space-around;
     list-style: none;
     list-style-type: none;
+    /* border: 2px solid green; */
 }
 
 .btn {
     float: left;
     position: relative;
-    padding: 12px 20px;
-
+    padding: calc(5px + .5vmin) calc(3px + .5vmin);
     color: var(--background-color);
     background-color: var(--third-color);
-
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: calc(1px + .2vmin);
     text-decoration: none;
-    font-size: 2vh;
+    font-size: calc(1px + 2vmin);
     overflow: hidden;
     transition: 0.2s;
 }

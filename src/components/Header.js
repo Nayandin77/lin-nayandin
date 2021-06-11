@@ -37,19 +37,21 @@ const Header = () => {
         }
         return (
             <div className="header-container">
+
                 <div className="item-header-a">
-                    <p className="header-title">Validone</p>
-                </div>
-                <div className="item-header-b">
+                    <p className="header-title">
+                        Validone
+                    </p>
                     <img className="header-icon" src={wolf} alt="wolf icon"></img>
                 </div>
-                <div className="item-header-c">
-                    <nav className="nav-bar">
+
+                <div className="item-header-b">
+                    <nav>
                         <ul className="nav-links">
                             {
                                 linkList.map((link) =>
                                     <Link to={link.href}>
-                                        <li className={`icon btn ${link.class}`}>
+                                        <li className={`btn ${link.class}`}>
                                             {link.text}
                                             <span></span>
                                             <span></span>
@@ -61,7 +63,8 @@ const Header = () => {
                             }
                         </ul>
                     </nav>
-                </div> 
+                </div>
+
             </div>
         )
     }
