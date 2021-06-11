@@ -1,5 +1,5 @@
 .footer-container {
-    background-color: var(--background-color);
+    background-color: var(--primary-color);
     
     position: absolute;
     bottom: 0;
@@ -17,10 +17,10 @@
 }
 
 .footer-text-a {
-    color: var(--white-color);
+    color: var(--fifth-color);
     
 }
 
 .footer-text-b {
-    color: var(--secondary-color);
+    color: var(--third-color);
 }

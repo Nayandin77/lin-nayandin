@@ -57,7 +57,7 @@ const Home = () => {
                 skillsList.map((skill) =>
                     <p>
                         {skill.value}:
-                        { returnListForSkill(skill) }
+                            { returnListForSkill(skill) }
                     </p>
                 )
             }
@@ -116,10 +116,10 @@ const Home = () => {
                     
                 </div>
 
-                <div className="home-skills-list-section">
+                <div className="home-skills-list-container">
                     <div className="home-skills-list-text">
                         <p>
-                            List of Technologies that I'm skilled / experienced in:
+                            <span>Skills:</span>
                         </p>
                     </div>
                     

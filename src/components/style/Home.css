@@ -1,3 +1,5 @@
+/* Beginning Section */
+
 .home-intro-text {
     text-align: center;
     display: inline-block;
@@ -51,8 +53,10 @@
     color: var(--yellow-color);
 }
 
+/* About Me Section */
+
 .home-aboutme-container {
-    margin: 0 10vw 8vh 6vw;
+    margin: 0 10vw 20vmin 6vw;
     /* border: 1px solid white; */
     padding: 2vmin;
 }
@@ -93,25 +97,40 @@
     color: var(--yellow-color);
 }
 
+/* Skills List Section */
 
-.home-skills-list-section {
-    margin: 25vh 2vw 16vh 2vw;
-    /* padding:  */
-
-    border: 1px solid blue;
+.home-skills-list-container {
+    margin: 30vmin 2vw 16vh 2vw;
+    margin: 0 10vw 8vh 6vw;
+    border: 1px solid white;
+    padding: 2vmin;
 }
 
 .home-skills-list-text {
-    border: 1px solid white;
-
-    color: var(--off-white-color);
-    margin: 0 0 1vh 0;
-    font-size: calc(2px + 2vmin);
     font-family: 'Ubuntu';
+    font-size: calc(8px + 2vmin);
+    color: var(--fifth-color);
+    line-height: 0;
+}
+
+.home-skills-list-text span {
+    display: inline-block;
+    position: relative;
+}
+
+.home-skills-list-text span::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    border-top: 1px solid white;
+    top: 0;
+    margin-left: 3vmin;
+    width: 70vmin;
 }
 
 .home-skills-container {
-    border: 1px solid white;
+    border: 1px solid teal;
+    margin: 2vmin 2vmin 0 2vmin;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
