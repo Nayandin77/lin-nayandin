@@ -12,7 +12,8 @@ const Projects = () => {
                 <a href={resume} download="DennisNayandin_Resume.pdf">Download</a>
             </div>
             <div className="resume-pdf-container">
-                <iframe src={resume} frameBorder="0" className="resume-pdf"></iframe>
+                <embed src={resume} className="resume-pdf"></embed>
+                {/* <iframe src={resume} frameBorder="0" className="resume-pdf"></iframe> */}
             </div>
         </div>
 
