@@ -144,4 +144,6 @@
     justify-content: center;
     background-color: var(--secondary-color);
     padding: 0 0 6vmin 0;
+
+    border: 1px solid brown;
 }
