@@ -7,6 +7,9 @@
 
 .contact-info {
     border: 2px solid orange;
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: calc(3px + 2vmin);
 }
 
 .contact-email {
@@ -23,5 +26,25 @@
     border: 1px solid green;
     font-family: 'Ubuntu';
     font-size: calc(12px + 2vmin);
+    text-align: center;
+}
+
+.contact-donate-container {
+    border: 1px solid teal;
+    
+}
+
+.contact-donate-title {
+    border: 1px solid purple;
+    font-family: 'Ubuntu';
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+}
+
+.contact-donate-list {
+    border: 1px solid purple;
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: calc(3px + 2vmin);
     text-align: center;
 }

@@ -21,6 +21,7 @@ const Contact = () => {
                         Mobile: +1 (703)389-3015
                     </p>
                 </div>
+
                 <div className="contact-social-media-container">
                     <p>Social Media</p>
 
@@ -30,8 +31,16 @@ const Contact = () => {
                         <i>Facebook</i>
                         <i>Instagram</i>
                     </div>
-
                 </div>
+
+                <div className="contact-donate-container">
+                    <p className="contact-donate-title">Want to Donate?</p>  
+
+                    <p className="contact-donate-list">
+                        BTC: -add address-
+                    </p>
+                </div>
+
             </div>
 
             <div className="item-contact-c"></div>
