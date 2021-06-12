@@ -12,7 +12,6 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 
 
-
 class App extends React.Component {
   
   render() {
