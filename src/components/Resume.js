@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <div className="resume-container">
             <div className="resume-download">
-                <a href={resume} download="DennisNayandin_Resume">Download</a>
+                <a href={resume} download="DennisNayandin_Resume.pdf">Download</a>
             </div>
             <div className="resume-pdf-container">
                 <iframe src={pdfFile} frameBorder="0" className="resume-pdf"></iframe>
