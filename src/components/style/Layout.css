@@ -103,20 +103,44 @@
 
 /*     Contact     */
 
-.contact-container {
-    border: 3px solid black;
-    height: 80vmin;
+.item-contact-a {
+    grid-area: contact;
+    justify-self: stretch; 
+    margin: 2vh 8vw 2vh 8vw;
 
-    /* display: grid;
-    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    border: 1px solid grey;
+}
+
+.item-contact-b {
+    grid-area: border_l;
+    border-right: 1px solid var(--fourth-color);
+    margin: 0 1vw 0 1vw;
+    padding-right: 2vw;
+}
+
+.item-contact-c {
+    grid-area: border_r;
+    border-left: 1px solid var(--third-color);
+    margin: 0 1vw 0 1vw;
+    padding-left: 2vw;
+}
+
+.contact-container {
+    height: 80vh;
+    background-color: var(--secondary-color);
+    color: var(--fifth-color);
+    padding: 10vmin 0 10vmin 0;
+
+    display: grid;
+    grid-template-columns: 10vw 10vw 60vw 10vw 10vw;
     grid-template-rows: auto;
     grid-template-areas:
-        "test1 test2 . . ."
-        ". test3 test3 test3 ."; */
+        ". border_l contact border_r .";
 }
 
 /*     Resume     */
+
 .resume-container {
     justify-content: center;
-    background-color: #0f4c75;
+    background-color: var(--secondary-color);
 }

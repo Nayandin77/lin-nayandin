@@ -7,9 +7,34 @@ const Contact = () => {
 
     return (
         <div className="contact-container">
-            <div className="contact-title">
-                <p>Contact Me</p>
+            <div className="item-contact-b"></div>
+
+            <div className="item-contact-a">
+                <div className="contact-title">
+                    <p><span>Contact Me</span></p>
+                </div>
+                <div className="contact-info">
+                    <p className="contact-email">
+                        Email: <a href="">dnayandin@gmail.com</a>
+                    </p>
+                    <p className="contact-phone">
+                        Mobile: +1 (703)389-3015
+                    </p>
+                </div>
+                <div className="contact-social-media-container">
+                    <p>Social Media</p>
+
+                    <div className="contact-social-media">
+                        <i>Github</i>
+                        <i>LinkedIn</i>
+                        <i>Facebook</i>
+                        <i>Instagram</i>
+                    </div>
+
+                </div>
             </div>
+
+            <div className="item-contact-c"></div>
         </div>
 
     );
