@@ -12,12 +12,10 @@ const Projects = () => {
                 <a href={resume} download="DennisNayandin_Resume.pdf">Download</a>
             </div>
             <div className="resume-pdf-container">
-                <object data={resume} type="application/pdf">
-                    <embed className="resume-pdf" src={resume} type="application/pdf" />
-                </object>
+                <iframe src={resume} frameBorder="0" className="resume-pdf"></iframe>
             </div>
             
-            {/* <iframe src={resume} frameBorder="0" className="resume-pdf"></iframe> */}
+            
         </div>
 
     );
